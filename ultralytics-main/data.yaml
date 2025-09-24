@@ -1,0 +1,8 @@
+train: /home/szh/work/Weed_Detection/train/data_Division/train/images  # train images (relative to 'path') 128 images
+val: /home/szh/work/Weed_Detection/train/data_Division/val/images  # val images (relative to 'path') 128 images
+test: /home/szh/work/Weed_Detection/train/data_Division/test/images
+ 
+nc: 2
+
+# Classes
+names: ['weed','mq']
